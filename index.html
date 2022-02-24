@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive portfolio website Sithukyaw</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Sithukyaw</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="bx bx-briefcase-alt-2"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme Change Button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Si Thu Kyaw</h1>
+            <h3 class="home__education">Frontend Developer</h3>
+            <span class="home__description">
+              High level experience in web design and development knowledge,
+              producing quality portfolio.
+            </span>
+            <div class="home__buttons">
+              <a href="#" class="button button--ghost">Download CV</a>
+              <a href="#about" class="button button--flex">About me</a>
+            </div>
+          </div>
+
+          <div class="home__handel">
+            <img src="assets/img/perfil.png" alt="" class="home__img" />
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Intro</span>
+
+        <div class="about__container container grid">
+          <div class="about__handel">
+            <img src="assets/img/perfil.png" alt="" class="home__img" />
+          </div>
+
+          
+
+          <div class="about__data">
+            <span class="about__ambition">My ambition is to be a full stack developer</span>
+            <p class="about__description">
+              Frontend developer, I create web pages with UI / UX userinterface,
+              I have years of experience and manyclientsarehappy with the
+              projects carried out.
+            </p>
+
+            <div class="about__button">
+              <a href="#contact" class="button button--ghost"
+                >Contact Me
+                <img class="about__button-icon" src="assets/img/hand.svg" alt=""
+              /></a>
+            </div>
+          </div>
+
+         
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My Abilities</span>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Design tools</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Adobe XD</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Adobe Photoshop</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Adobe Illustrator</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Backend developer</h3>
+
+            <div class="skills__img-box">
+              <img src="assets/img/learning.png" alt="" />
+            </div>
+            <span class="skills__ambition">I Am Still Learning</span>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">My Projects</span>
+
+        <div class="portfolio__container container swiper">
+          <div class="swiper-wrapper">
+            <!--=============== PORTFOLIO 1 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img class="portfolio__img" src="assets/img/project1.png" alt="" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Micky(veterinary clinic)</h3>
+                <p class="portfolio__description">
+                  Websit adaptable to all devices, with components and animated
+                  interactions.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://cranky-goldwasser-3fa55d.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="bx bx-right-arrow-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--=============== PORTFOLIO 2 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img class="portfolio__img" src="assets/img/project2.png" alt="" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Chef Moustache(restaurant)</h3>
+                <p class="portfolio__description">
+                  Websit adaptable to all devices, with components and animated
+                  interactions.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://frosty-villani-1f13a2.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="bx bx-right-arrow-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--=============== PORTFOLIO 3 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img class="portfolio__img" src="assets/img/project3.png" alt="" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Zero One(mobile shop)</h3>
+                <p class="portfolio__description">
+                  Websit adaptable to all devices, with components and animated
+                  interactions.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://eager-williams-5aad69.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="bx bx-right-arrow-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--=============== PORTFOLIO 4 ===============-->
+            <div class="portfolio__content grid swiper-slide">
+              <img class="portfolio__img" src="assets/img/project4.png" alt="" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Zetta(Hotel & restaurant)</h3>
+                <p class="portfolio__description">
+                  Websit adaptable to all devices, with components and animated
+                  interactions.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://sharp-mccarthy-509682.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="bx bx-right-arrow-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- swiper button -->
+          <div class="swiper-button-next">
+            <i class="bx bx-chevron-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="bx bx-chevron-left swiper-portfolio-icon"></i>
+          </div>
+          <!-- swiper pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">sithukyaw.stk.89@gmail.com</span>
+
+                <a href="https://mail.google.com/" target="_blank" class="contact__button">
+                  Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bx-phone contact__card-icon"></i>
+                <h3 class="contact__card-title">Phone</h3>
+                <span class="contact__card-data">09-959318590</span>
+
+                <a href="#" target="_blank" class="contact__button">
+                  Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-messenger contact__card-icon"></i>
+                <h3 class="contact__card-title">Messenger</h3>
+                <span class="contact__card-data">SiThuKyaw</span>
+
+                <a href="https://www.messenger.com/t/100015666286998/" target="_blank" class="contact__button">
+                  Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Write me</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Names</label>
+                <input type="text" placeholder="Insert your name" class="contact__form-input">
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input type="email" placeholder="Insert your email" class="contact__form-input">
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Message</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write your message" class="contact__form-input"></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Si Thu Kyaw</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+            <a href="https://www.facebook.com/sithi.kyaw.3" target="_blank" class="footer__social-link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; SiThuKyaw. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
