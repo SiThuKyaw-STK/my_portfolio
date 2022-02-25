@@ -940,6 +940,10 @@ body.light-theme {
     text-align: initial;
   }
 
+  .about__button{
+    justify-content: initial;
+  }
+
   .about__description {
     padding: 0 4rem 0 0;
     margin-bottom: 2.5rem;
