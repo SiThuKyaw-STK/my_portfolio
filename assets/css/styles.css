@@ -336,10 +336,6 @@ body.light-theme {
   margin-bottom: 2.5rem;
 }
 
-.home__img {
-  width: 160px;
-}
-
 .home__handel {
   justify-self: center;
   width: 350px;
@@ -915,9 +911,6 @@ body.light-theme {
   .home__handel {
     width: 400px;
     height: 250px;
-  }
-  .home__img {
-    width: 220px;
   }
   .home__social-link {
     padding: 0.4rem;
