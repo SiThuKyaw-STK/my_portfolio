@@ -6,41 +6,6 @@ function scrollHeader() {
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== SERVICES MODAL ===============*/
-const modalViews = document.querySelectorAll('.services__modal'),
-    modalBtns = document.querySelectorAll('.services__button'),
-    modalCloses = document.querySelectorAll('.services__modal-close')
-
-let modal = function (modalClick) {
-    modalViews[modalClick].classList.add('active-modal')
-}
-
-modalBtns.forEach((modalBtn, i) => {
-    modalBtn.addEventListener('click', () => {
-        modal(i)
-    })
-})
-
-modalCloses.forEach((modalClose) => {
-    modalClose.addEventListener('click', () => {
-        modalViews.forEach((modalView) => {
-            modalView.classList.remove('active-modal')
-        })
-    })
-})
-
-
-
-/* Link active work */
-const linkWork = document.querySelectorAll('.work__item');
-
-function activeWork() {
-    linkWork.forEach(l => l.classList.remove('active-work'))
-    this.classList.add('active-work')
-}
-
-linkWork.forEach(l => l.addEventListener('click', activeWork))
-
 
 /*=============== SWIPER PORTFOLIO ===============*/
 let swiper = new Swiper(".portfolio__container", {
